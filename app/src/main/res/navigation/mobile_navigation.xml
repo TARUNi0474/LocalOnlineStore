@@ -22,4 +22,11 @@
         android:name="com.example.myapplication.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_orders"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.myapplication.ui.cart.CartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/cart_fragment" />
+
+
 </navigation>

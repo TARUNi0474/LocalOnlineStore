@@ -13,7 +13,6 @@
             android:name=".NavActivity"
             android:label="@string/title_activity_nav"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".CustomerLoginActivity" />
         <activity android:name=".PhoneAuthActivity" />
         <activity android:name=".DeliveredProductActivity" />
         <activity android:name=".DeliveredProductsActivity" />
@@ -24,7 +23,8 @@
         <activity android:name=".SellerproductActivity" />
         <activity android:name=".OrderlistActivity" />
         <activity android:name=".SellerLoginActivity" />
-        <activity android:name=".SignupActivity" />
+        <activity android:name=".SignupActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />

@@ -6,27 +6,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:padding="19dp"
     tools:context=".MainActivity">
-    <Button
-        android:layout_width="155dp"
-        android:layout_height="wrap_content"
-        android:text="customerlogin"
-        android:onClick="signup"/>
-    <Button
-        android:layout_width="165dp"
-        android:layout_height="wrap_content"
-        android:text="customersignup"
-        android:onClick="signup1"/>
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="seller login"
-        android:onClick="main_activity"/>
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="seller signup"
-        android:onClick="signup1"/>
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/topshape"
+        android:gravity="bottom">
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabTextColor="@color/colorPrimary"
+            android:id="@+id/tablayout"/>
+    </androidx.appcompat.widget.Toolbar>
 
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpager"/>
 
 </LinearLayout>
